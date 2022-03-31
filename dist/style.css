@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=IBM+Plex+Sans+Arabic:wght@300&family=Nunito&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Ramaraja&family=Righteous&family=Roboto:ital,wght@0,100;0,400;0,700;1,100&family=Sarala&display=swap");
+
+body {
+  background-image: url("https://img.freepik.com/fotos-gratis/calculadora-em-fundo-azul_23-2148182032.jpg?size=626&ext=jpg");
+  background-size: cover;
+}
+
+.cabecalho {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.calcula {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calcula label {
+  color: white;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weigth: 400;
+}
+
+.calcula input {
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 16px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+}
+
+.botoes button {
+  padding: 15px;
+  margin: 10px;
+  gap: 32px;
+  border-radius: 20px;
+  background-color: green;
+  color: white;
+}
+
+#resultado {
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
